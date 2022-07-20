@@ -1,0 +1,131 @@
+/*all Game*/
+.gameBorder {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /*title*/
+  .gameTitle {
+    background: linear-gradient(
+      to bottom,
+      #fafafa,
+      #f8f7f9,
+      #f6f7f6,
+      #f5f4f4,
+      #f3f4f3,
+      #f1f2f1,
+      #eeefef
+    );
+    border-bottom: 1px solid #e3e3e3;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .gameTitle > dl > dt {
+    font-size: 14px;
+    font-weight: bold;
+    color: #7d0808;
+    padding-left: 10px;
+    padding-right: 30px;
+    line-height: 28px;
+    float: left;
+  }
+  
+  .gameTitle > dl > dd {
+    float: left;
+    color: #ccc;
+    padding: 0px 5px;
+    line-height: 28px;
+  }
+  
+  .gameTitle > dl > dd > a {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  /* games */
+  .allGame {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 8px;
+    width: 672px;
+    overflow: hidden;
+  }
+  
+  .allGame > ul > li {
+    width: 320px;
+    height: 130px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    float: left;
+    margin-left: 8px;
+    padding: 10px 0;
+  }
+  
+  .allGame > ul > li > .img {
+    float: left;
+    width: 128px;
+    box-sizing: border-box;
+    margin: 10px 10px 0 8px;
+  }
+  
+  .allGame > ul > li > .img > img {
+    width: 100%;
+  }
+  
+  .allGame > ul > li > .list {
+    float: right;
+    width: 174px;
+  }
+  
+  /*The picture of the game list in the left 
+  column is animated when the mouse moves in*/
+  
+  .img img {
+    transition: all 0.5s;
+  }
+  
+  .img img:hover {
+    transform: translate(-8px, 0);
+  }
+  
+  .allGame p {
+    line-height: 22px;
+  }
+  
+  .allGame span {
+    color: #a70a0a;
+  }
+
+  .clear::after{
+    content:'';
+    display:block;
+    clear:both;
+  }
+
+
+  /*button*/
+.playBtn{
+    margin-top: 4px;
+  }
+  
+  .playBtn>a{
+    height: 26px;
+    line-height: 26px;
+    display: inline-block;
+    padding: 0 10px;
+    border:1px solid #c7c9cf;
+    border-radius:4px;
+    color: #333;
+  }
+  
+  .playBtn>.active{
+    background:linear-gradient(to bottom,#87c9d9,#69b2c8,#5b9dbc,#4a87ac,#3e74a2,#396f9e,#366b9b);
+    color:#fff;
+    font-weight: bold;
+    border:1px solid #326598;
+    margin-left: 4px;
+  }

@@ -1,0 +1,10 @@
+/*Advertising graphics and game videos*/
+.ad{
+    margin-bottom: 10px;
+  }
+  
+  .ad img{
+    width: 96%;
+    margin: 5px;
+    display: block;
+  }

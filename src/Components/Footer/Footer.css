@@ -1,0 +1,16 @@
+/*footer*/
+#footer{
+    padding: 15px 0;
+    clear: both;
+    text-align: right;
+    color: #666;
+  }
+  
+  #footer a{
+    padding-right: 15px;
+    float: left;
+  }
+  
+  #footer a:hover{
+    text-decoration: underline;
+  }

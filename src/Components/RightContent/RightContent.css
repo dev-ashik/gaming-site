@@ -1,0 +1,45 @@
+.gameLogin{
+    border:1px solid #ccc;
+    border-radius:8px;
+    height: 206px;
+    overflow: hidden;
+    background-color:rgba(243, 243, 243, 0.46);
+    margin-bottom: 20px;
+  }
+  
+  .gameLogin h1 {
+    color: #767373;
+    font-size: 14px;
+    padding: 20px 0px 25px 20px;
+  }
+  
+  .gameLogin li{
+    padding-left: 20px;
+    height: 35px;
+    font-size: 14px;
+  }
+  
+  .gameLogin li input{
+    border:1px solid #ccc;
+    width: 150px;
+    height: 20px;
+    padding-left: 8px;
+  }
+  
+  .gameLogin .login{
+    background:url('../../images/btnLogin.jpg') 0 0 no-repeat;
+    width: 63px;
+    height: 24px;
+    cursor: pointer;
+    border: none;
+    margin-left: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .gameLogin li a{
+    margin-left: 30px;
+  }
+  
+  .gameLogin li a:hover{
+    text-decoration: underline;
+  }

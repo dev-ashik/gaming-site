@@ -1,0 +1,25 @@
+.gameVideo{
+    width: 95%;
+    margin: 0 auto;
+    line-height: 26px;
+  }
+  
+  .gameVideo dt{
+    border-bottom: 1px dashed #ccc;
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+    padding:10px 0px;
+  }
+  
+  .gameVideo dd{
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+    padding:10px 0px;
+  }
+  
+  .gameVideo img{
+    padding:0px 10px 0px 0px;
+    float: left;
+  }

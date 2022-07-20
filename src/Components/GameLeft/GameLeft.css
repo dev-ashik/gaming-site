@@ -1,0 +1,81 @@
+/*left list*/
+.firstLine{
+    float: left;
+    width: 724px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.gameNav{
+    float: left;
+    border:1px solid #ccc;
+    border-radius:8px;
+    overflow: hidden;
+    width: 190px;
+}
+
+.gameNav>ul>li{
+    background:linear-gradient(to bottom,#fff,#f8f8f8,#e8e8e8,#f1eff0);
+    line-height: 30px;
+}
+
+.gameNav>ul>li>a>img{
+    padding:0 10px 0 8px;
+    vertical-align: middle;
+}
+
+.gameNav>ul>li>a{
+    color:#000;
+    display:block;
+    width: 190px;
+    height: 27px;
+    padding-top: 2px;
+    background:url('../../images/rightA.png')170px center no-repeat;
+}
+
+.gameNav>ul>li>a:hover{
+    color:#fff;
+    background:linear-gradient(to right,#ed9774,#e98b67,#db683c,#d75e31);
+}
+
+
+
+
+
+
+
+/*Advertising picture*/
+
+.gameAdver{
+    float: right;
+    overflow: hidden;
+    width: 520px;
+    position: relative;
+    margin-top: 4px;
+}
+
+.gameAdver>a>img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.code{
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+}
+.code>li{
+    float: left;
+    padding: 0 6px;
+    background:rgba(204, 204, 204, 0.98);
+    margin: 4px;
+    border-radius: 50%;
+}
+.code>.active{
+    background-color: rgba(184, 26, 21, 0.98);
+}
+.active>a{
+    color:#fff;
+}
+.code>li>a{
+    color:#000;
+}

@@ -1,0 +1,19 @@
+/*role*/
+.role{
+    width: 680px;
+    overflow: hidden;
+    clear: both;
+    margin:15px auto 0;
+  }
+  
+  .role>ul>li{
+    float: left;
+    width: 170px;
+    text-align: center;
+    height: 190px;
+    overflow: hidden;
+  }
+  
+  .role p span{
+    color:#a70a0a;
+  }
