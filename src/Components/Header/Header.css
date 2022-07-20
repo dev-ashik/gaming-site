@@ -2,7 +2,6 @@ header {
     width: 1000px;
     margin: 0 auto;
     overflow: hidden;
-
 }
 
 
@@ -46,6 +45,7 @@ header {
 .menu>a {
     color: #fff;
     padding: 0 5px;
+    margin-right: 5px;
 }
 
 

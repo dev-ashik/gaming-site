@@ -25,10 +25,11 @@ a{
 
 /* common css end */
 
-.container {
+.main_container {
   display: flex;
-  justify-content: center;
-  /* width: 1000px; */
+  justify-content: space-between;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 .container_left {

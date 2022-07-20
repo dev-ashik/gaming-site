@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div className='container'>
+      <div className='main_container'>
         <div className='container_left'>
           <GameLeft />
           <AllGames />
@@ -31,7 +31,7 @@ function App() {
 
 
       <Footer />
-      {/* <FloatingAdd/> */}
+      <FloatingAdd/>
     </div>
   );
 }

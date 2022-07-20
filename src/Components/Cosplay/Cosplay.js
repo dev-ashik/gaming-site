@@ -15,77 +15,77 @@ import img13 from "../../images/img-13.jpg";
 const Cosplay = () => {
     return (
         //  cosplay 
-  <div class="gameBorder">
+  <div className="gameBorder">
              {/* title  */}
-            <div class="gameTitle">
+            <div className="gameTitle">
                 <dl>
                     <dt>角色扮演</dt>
                 </dl>
             </div>
-            <div class="role">
+            <div className="role">
                 <ul>
                     <li><a href="#"><img src={img6} alt="" /></a>
                         <p>游戏人气：1765314<br/>
                             游戏状态：<span>22区开启</span></p>
-                        <p class="playBtn">
+                        <p className="playBtn">
                             <a href="#">选服</a>
-                            <a class="active" href="#">进入游戏</a>
+                            <a className="active" href="#">进入游戏</a>
                         </p>
                     </li>
                     <li><a href="#"><img src={img7} alt=""/></a>
                         <p>游戏人气：1245814<br/>
                             游戏状态：<span>23区开启</span></p>
-                        <p class="playBtn">
+                        <p className="playBtn">
                             <a href="#">选服</a>
-                            <a class="active" href="#">进入游戏</a>
+                            <a className="active" href="#">进入游戏</a>
                         </p>
                     </li>
                     <li><a href="#"><img src={img8} alt=""/></a>
                         <p>游戏人气：1232158<br/>
                             游戏状态：<span>25区开启</span></p>
-                        <p class="playBtn">
+                        <p className="playBtn">
                             <a href="#">选服</a>
-                            <a class="active" href="#">进入游戏</a>
+                            <a className="active" href="#">进入游戏</a>
                         </p>
                     </li>
                     <li><a href="#"><img src={img9} alt=""/></a>
                         <p>游戏人气：123745<br/>
                             游戏状态：<span>18区开启</span></p>
-                        <p class="playBtn">
+                        <p className="playBtn">
                             <a href="#">选服</a>
-                            <a class="active" href="#">进入游戏</a>
+                            <a className="active" href="#">进入游戏</a>
                         </p>
                     </li>
                     <li><a href="#"><img src={img10} alt=""/></a>
                         <p>游戏人气：178501<br/>
                             游戏状态：<span>火爆开启</span></p>
-                        <p class="playBtn">
+                        <p className="playBtn">
                             <a href="#">选服</a>
-                            <a class="active" href="#">进入游戏</a>
+                            <a className="active" href="#">进入游戏</a>
                         </p>
                     </li>
                     <li><a href="#"><img src={img11} alt=""/></a>
                         <p>游戏人气：983014<br/>
                             游戏状态：<span>2服开启</span></p>
-                        <p class="playBtn">
+                        <p className="playBtn">
                             <a href="#">选服</a>
-                            <a class="active" href="#">进入游戏</a>
+                            <a className="active" href="#">进入游戏</a>
                         </p>
                     </li>
                     <li><a href="#"><img src={img12} alt=""/></a>
                         <p>游戏人气：745214<br/>
                             游戏状态：<span>4服开启</span></p>
-                        <p class="playBtn">
+                        <p className="playBtn">
                             <a href="#">选服</a>
-                            <a class="active" href="#">进入游戏</a>
+                            <a className="active" href="#">进入游戏</a>
                         </p>
                     </li>
                     <li><a href="#"><img src={img13} alt=""/></a>
                         <p>游戏人气：654814<br/>
                             游戏状态：<span>火爆开启</span></p>
-                        <p class="playBtn">
+                        <p className="playBtn">
                             <a href="#">选服</a>
-                            <a class="active" href="#">进入游戏</a>
+                            <a className="active" href="#">进入游戏</a>
                         </p>
                     </li>
                 </ul>

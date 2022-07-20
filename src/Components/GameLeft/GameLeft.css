@@ -1,13 +1,13 @@
 /*left list*/
 .firstLine{
-    float: left;
+    /* float: left; */
     width: 724px;
     overflow: hidden;
     margin-bottom: 20px;
 }
 .gameNav{
     float: left;
-    border:1px solid #ccc;
+    border: 1px solid #ccc;
     border-radius:8px;
     overflow: hidden;
     width: 190px;

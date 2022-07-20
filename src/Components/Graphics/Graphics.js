@@ -5,7 +5,7 @@ import ad2 from "../../images/ad2.jpg";
 
 const Graphics = () => {
     return (
-        <div class="ad">
+        <div className="ad">
                 <a href="#">
                     <img src={ad1} alt="" />
                 </a>
