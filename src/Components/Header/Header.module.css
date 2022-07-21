@@ -4,7 +4,6 @@ header {
     overflow: hidden;
 }
 
-
 .head {
     height: 50px;
     background: linear-gradient(to bottom, #d01d3b, #d3617a);
@@ -44,10 +43,14 @@ header {
 
 .menu>a {
     color: #fff;
-    padding: 0 5px;
+    padding: 0 7px;
     margin-right: 5px;
+    border-right: 1px solid #fff;
 }
 
+.menu>a:last-child {
+    border-right: none;
+}
 
 .menu>a:hover{
     transform:scale(3);
