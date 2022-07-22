@@ -30,8 +30,8 @@ function App() {
       </div>
 
 
-      {/* <Footer />
-      <FloatingAdd/> */}
+      <Footer />
+      <FloatingAdd/>
     </div>
   );
 }
