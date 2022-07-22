@@ -3,7 +3,6 @@ import './RightContent.css';
 
 const RightContent = () => {
     return (
-        <aside className="gameRight">
         <div className="gameLogin clear">
             <h1>开心网用户登录</h1>
             <form action="#">
@@ -24,7 +23,6 @@ const RightContent = () => {
                 </ul>
             </form>
         </div>
-    </aside>
     );
 };
 

@@ -21,7 +21,6 @@ const allGameData = [
 const AllGames = () => {
     return (
         <div className="gameBorder">
-            {/* title */}
             <div className="gameTitle">
                 <dl>
                     <dt>全部游戏</dt>
@@ -32,12 +31,16 @@ const AllGames = () => {
                     <dd><a href="#">社交游戏</a></dd>
                 </dl>
             </div>
-            {/* games */}
+
             <div className="allGame">
                 <ul>
                     {
                         allGameData.map((data, uid) => <li key={uid}>
-                            <div className="img"><a href="#"><img src={data.img} alt="" /></a></div>
+                            <div className="img">
+                                <a href="#">
+                                    <img src={data.img} alt="" />
+                                </a>
+                            </div>
                             <div className="list">
                                 <p>{data.name}</p>
                                 <p>类型：{data.about}</p>
