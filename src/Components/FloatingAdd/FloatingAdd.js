@@ -1,6 +1,6 @@
 import React from 'react';
 // import './FloatingAdd.css';
-import ad3 from "../../images/ad3.jpg";
+import ad3 from "../../images/add3.jpg";
 
 const FloatingAdd = () => {
     return (
