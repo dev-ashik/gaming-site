@@ -13,6 +13,8 @@ import img7 from "../../images/img-7.jpg";
 import img9 from "../../images/img-9.jpg";
 import img10 from "../../images/img-10.jpg";
 
+import rightAngle from "../../images/rightA.png";
+
 const gameNavData = [
     {
         name: "征战四方",
@@ -80,7 +82,13 @@ const GameLeft = () => {
             <div className="gameNav">
                 <ul>
                     {
-                       gameNavData.map((data, uid) => <li key={uid}><a href="#"><img src={data.image} alt={data.alt} />{data.name}</a></li>) 
+                       gameNavData.map((data, uid) => 
+                        <li key={uid}>
+                            <a href="#">
+                            <img src={data.image} alt={data.alt} />{data.name}
+                            </a>
+                            <img className="rightAngle" src={rightAngle} alt="" />
+                        </li>) 
                     }
                     
                 </ul>

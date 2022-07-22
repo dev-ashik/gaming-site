@@ -1,9 +1,8 @@
-/*floating ad*/
 .adRight {
     width: 200px;
     position: absolute;
     right: 0;
-    top: 400px;
+    top: 50%;
     animation:ad 3s both;
   }
   
@@ -27,11 +26,11 @@
       top: 0;
     }
     50% {
-      right: 800px;
-      top: 700px;
+      right: 50%;
+      top: 90%;
     }
     100% {
       right: 0;
-      top: 400px;
+      top: 50%;
     }
   }

@@ -1,19 +1,38 @@
 /*role*/
-.role{
-    width: 680px;
-    overflow: hidden;
-    clear: both;
-    margin:15px auto 0;
+.role {
+  /* width: 680px; */
+  overflow: hidden;
+  clear: both;
+  margin: 15px auto 0;
+}
+
+.role>ul {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 8px;
+}
+
+.role>ul>li {
+  /* float: left; */
+  /* width: 170px; */
+  text-align: center;
+  min-height: 190px;
+  overflow: hidden;
+}
+
+.role p span {
+  color: #a70a0a;
+}
+
+
+@media (max-width: 770px) {
+  .role>ul {
+    grid-template-columns: auto auto auto;
   }
-  
-  .role>ul>li{
-    float: left;
-    width: 170px;
-    text-align: center;
-    height: 190px;
-    overflow: hidden;
+}
+
+@media (max-width: 430px) {
+  .role>ul {
+    grid-template-columns: auto;
   }
-  
-  .role p span{
-    color:#a70a0a;
-  }
+}
