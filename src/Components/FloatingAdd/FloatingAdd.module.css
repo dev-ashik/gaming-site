@@ -13,6 +13,8 @@
     top: -12px;
     background: rgba(204, 204, 204, 0.63);
     padding: 0 4px;
+    border: none;
+    cursor: pointer;
   }
   
   .adRight img {

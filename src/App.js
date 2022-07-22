@@ -10,8 +10,10 @@ import Graphics from './Components/Graphics/Graphics';
 import GameVidio from './Components/GameVidio/GameVidio';
 import Footer from './Components/Footer/Footer';
 import FloatingAdd from './Components/FloatingAdd/FloatingAdd';
+import { useState } from 'react';
 
 function App() {
+  const [showAdd, setShowAdd] = useState(true);
   return (
     <div className="App">
       <Header />
@@ -31,7 +33,10 @@ function App() {
 
 
       <Footer />
-      <FloatingAdd/>
+      {
+        showAdd && <FloatingAdd setShowAdd={setShowAdd}/>
+      }
+      
     </div>
   );
 }
