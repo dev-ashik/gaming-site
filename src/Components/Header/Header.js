@@ -9,19 +9,20 @@ const Header = () => {
         <header className={styles.head}>
             <nav>
                 <div className={styles.gameLogo}>
-                    <h1>
-                        <a href="#"></a>
-                        <img src={gameLogo} alt="gameLogo" />
-                    </h1>
-                </div>
-
-                <div className={styles.gameIndex}>
-                    <a href="#">首页</a>
+                    <div className={styles.logo}>
+                        <a href="#"><img className={styles.logo_image} src={gameLogo} alt="gameLogo" /></a>
+                    </div>
+                    <div className={styles.links}>
+                        <a href="">开心网</a>
+                        <div className={styles.border}></div>
+                        <a href="">游戏大才</a>
+                        <a href="#" >首页</a>
+                    </div>
                 </div>
 
                 <div className={styles.menu}>
                     {
-                        headerMenuText.map((data, uid)=> <a href="#" key={uid}>{data}</a>)
+                        headerMenuText.map((data, uid) => <a href="#" key={uid}>{data}</a>)
                     }
                 </div>
             </nav>

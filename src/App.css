@@ -28,10 +28,21 @@ a{
 .main_container {
   display: flex;
   justify-content: space-between;
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
 .container_left {
   margin-right: 15px;
+}
+
+
+@media (max-width: 768px) { 
+  .main_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 }

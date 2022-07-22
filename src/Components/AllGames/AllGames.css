@@ -53,14 +53,20 @@
     width: 672px;
     overflow: hidden;
   }
+
+  .allGame > ul {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
   
   .allGame > ul > li {
-    width: 320px;
+    /* width: 320px; */
     height: 130px;
     overflow: hidden;
     border: 1px solid #ccc;
     border-radius: 8px;
-    float: left;
+    /* float: left; */
+    
     margin-left: 8px;
     padding: 10px 0;
   }
@@ -130,4 +136,15 @@
     font-weight: bold;
     border:1px solid #326598;
     margin-left: 4px;
+  }
+
+
+ 
+  
+
+  @media (max-width: 768px) { 
+    .allGame > ul {
+      display: grid;
+      grid-template-columns: auto;
+    }
   }

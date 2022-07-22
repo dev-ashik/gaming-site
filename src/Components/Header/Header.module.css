@@ -1,42 +1,76 @@
-header {
-    width: 1000px;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
 .head {
-    height: 50px;
+    /* height: 50px; */
     background: linear-gradient(to bottom, #d01d3b, #d3617a);
     margin-bottom: 20px;
     border-radius: 8px;
 }
 
+header {
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.logo {
+    margin-top: 7px;
+}
+
 .gameLogo {
-    float: left;
     padding-top: 5px;
+    display: flex;
 }
 
-.gameIndex {
-    background: url("../../images/btn-01.gif") 0 0 no-repeat;
-    width: 100px;
-    height: 40px;
+.logo_image {
+    height: 30px;
+    width: 34px;
+}
+
+.links {
+    display: flex;
+}
+
+.links > a {
+    font-size: 16px;
     text-align: center;
-    float: left;
-    position: relative;
-    top: 10px;
-    left: 20px;
+    color: white;
+    padding: 5px;
+    align-items: center;
+    margin: 0 7px;
+    font-weight: bold;
+    line-height: 40px;
+}
+.border {
+    border-right: 1px solid white;
+    height: 15px;
+    margin-top: 19px;
 }
 
-.gameIndex>a,
-.gameIndex>a:hover {
-    font-size: 14px;
+.links > a:last-child {
+    /* background: url("../../images/btn-01.gif") 0 0 no-repeat; */
+    background-color: white;
+    width: 100px;
+    text-align: center;
+    position: relative;
     color: #cb3333;
+    border-radius: 3px 3px 0 0;
+    
+}
+.links > a:hover {
+    /* font-size: 14px; */
+    color: #012ef5;
     font-weight: 700;
-    line-height: 40px;
+    /* line-height: 40px; */
 }
 
 .menu {
-    float: right;
+    /* display: flex; */
     color: #dbb9b9;
     padding: 15px 30px 0px 0px;
 }
@@ -58,4 +92,61 @@ header {
     -moz-transform: scale(3);
     -o-transform: scale(3);
     font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .gameLogo {
+        display: table-cell;
+        justify-content: center;
+    }
+
+    .logo {
+        text-align: center;
+    }
+    .head {
+        /* height: ; */
+        /* background: linear-gradient(to bottom, #d01d3b, #d3617a);
+        margin-bottom: 20px;
+        border-radius: 8px; */
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .links>a {
+        display: block;
+        line-height: 24px;
+    }
+
+    .border {
+        display: none;
+    }
+
+    .menu {
+        padding: 0;
+    }
+
+    .menu>a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: none;
+        text-align: center;
+        font-size: 16px;
+        margin: 10px 0;
+
+    }
+
+    .links > a:last-child {
+        margin: 0 auto;
+        border-radius: 4px;
+        
+    }
 }
