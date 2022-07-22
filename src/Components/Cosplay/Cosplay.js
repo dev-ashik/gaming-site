@@ -14,9 +14,7 @@ import img13 from "../../images/img-13.jpg";
 
 const Cosplay = () => {
     return (
-        //  cosplay 
   <div className="gameBorder">
-             {/* title  */}
             <div className="gameTitle">
                 <dl>
                     <dt>角色扮演</dt>

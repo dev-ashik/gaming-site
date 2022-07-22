@@ -26,7 +26,6 @@ const GameLeft = () => {
                         </ul>
                     </div>
 
-                    {/* Advertising picture  */}
                     <div className="gameAdver">
                         <a href="#">
                             <img src={xdtgg_frxz2_44} alt="" />

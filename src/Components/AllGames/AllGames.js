@@ -7,7 +7,6 @@ import img5 from "../../images/img-5.jpg";
 const AllGames = () => {
     return (
         <div className="gameBorder">
-            {/* title */}
             <div className="gameTitle">
                 <dl>
                     <dt>全部游戏</dt>
@@ -18,7 +17,6 @@ const AllGames = () => {
                     <dd><a href="#">社交游戏</a></dd>
                 </dl>
             </div>
-            {/* games */}
             <div className="allGame">
                 <ul>
                     <li>
