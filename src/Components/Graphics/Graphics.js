@@ -1,7 +1,7 @@
 import React from 'react';
 import './Graphics.css';
 import ad1 from "../../images/ad1.jpg";
-import ad2 from "../../images/ad2.jpg";
+import add2 from "../../images/add2.jpg";
 
 const Graphics = () => {
     return (
@@ -10,7 +10,7 @@ const Graphics = () => {
                     <img src={ad1} alt="" />
                 </a>
                 <a href="#">
-                    <img src={ad2} alt="" />
+                    <img src={add2} alt="" />
                 </a>
             </div>
     );

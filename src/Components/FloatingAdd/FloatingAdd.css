@@ -4,8 +4,8 @@
     position: absolute;
     right: 0;
     top: 400px;
-    /*animation*/
-    animation:ad 3s both;
+    animation: ad 3s both;
+    z-index: 9999999999;
   }
   
   .icon {

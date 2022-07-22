@@ -31,7 +31,7 @@ function App() {
 
 
       <Footer />
-      {/* <FloatingAdd/> */}
+      <FloatingAdd />
     </div>
   );
 }

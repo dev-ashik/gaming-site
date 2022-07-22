@@ -1,6 +1,13 @@
 import React from 'react';
 import './GameLeft.css';
 import xdtgg_frxz2_44 from "../../images/xdtgg_frxz2_44.jpg";
+import sub2 from "../../images/sub-2.gif";
+import sub3 from "../../images/sub-3.gif";
+import sub4 from "../../images/sub-4.gif";
+import sub5 from "../../images/sub-5.gif";
+import sub6 from "../../images/sub-6.gif";
+import sub7 from "../../images/sub-7.gif";
+import sub8 from "../../images/sub-8.gif";
 
 const GameLeft = () => {
     return (
@@ -9,13 +16,13 @@ const GameLeft = () => {
                 <div class="firstLine">
                     <div class="gameNav">
                         <ul>
-                            <li><a href="#"><img src="../img/sub-2.gif" alt="" />征战四方</a></li>
-                            <li><a href="#"><img src="../img/sub-3.gif" alt="" />龙将</a></li>
-                            <li><a href="#" ><img src="../img/sub-4.gif" alt="" />弹弹堂</a></li>
-                            <li><a href="#"><img src="../img/sub-5.gif" alt="" />凡人修真2</a></li>
-                            <li><a href="#"><img src="../img/sub-6.gif" alt="" />一骑当先</a></li>
-                            <li><a href="#"><img src="../img/sub-7.gif" alt="" />宫廷计</a></li>
-                            <li><a href="#"><img src="../img/sub-8.gif" alt="" />神仙道</a></li>
+                            <li><a href="#"><img src={sub2} alt="" />征战四方</a></li>
+                            <li><a href="#"><img src={sub3} alt="" />龙将</a></li>
+                            <li><a href="#" ><img src={sub4} alt="" />弹弹堂</a></li>
+                            <li><a href="#"><img src={sub5} alt="" />凡人修真2</a></li>
+                            <li><a href="#"><img src={sub6} alt="" />一骑当先</a></li>
+                            <li><a href="#"><img src={sub7} alt="" />宫廷计</a></li>
+                            <li><a href="#"><img src={sub8} alt="" />神仙道</a></li>
                         </ul>
                     </div>
 
