@@ -1,24 +1,32 @@
 import React from 'react';
-import './Header.css';
+import styles from './Header.module.css';
 import gameLogo from '../../images/gameLogo.png';
+
+const headerMenuText = ["注册", "登录", "帮助", "更多"];
 
 const Header = () => {
     return (
-        <header className='head'>
+        <header className={styles.head}>
             <nav>
-                <div className="gameLogo">
-                    <h1><a href="#"></a><img src={gameLogo} alt="" /></h1>
+                <div className={styles.gameLogo}>
+                    <div className={styles.logo}>
+                        <a href="#"><img className={styles.logo_image} src={gameLogo} alt="gameLogo" /></a>
+                    </div>
+                    <div className={styles.links}>
+                        <a href="">开心网</a>
+                        <div className={styles.border}></div>
+                        <a href="">游戏大才</a>
+                        <a href="#" >首页</a>
+                    </div>
                 </div>
 
-                <div className="gameIndex"><a href="#">首页</a></div>
-
-                <div className="menu">
-                    <a href="#">注册</a>&nbsp;&nbsp;| <a href="#">登录</a>&nbsp;&nbsp;|<a href="#">帮助</a>&nbsp;&nbsp;|<a
-                        href="#">更多</a>
+                <div className={styles.menu}>
+                    {
+                        headerMenuText.map((data, uid) => <a href="#" key={uid}>{data}</a>)
+                    }
                 </div>
             </nav>
         </header>
-
     );
 };
 

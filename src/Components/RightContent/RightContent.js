@@ -3,8 +3,8 @@ import './RightContent.css';
 
 const RightContent = () => {
     return (
-        <aside class="gameRight">
-        <div class="gameLogin clear">
+        <aside className="gameRight">
+        <div className="gameLogin clear">
             <h1>开心网用户登录</h1>
             <form action="#">
                 <ul>
@@ -15,7 +15,7 @@ const RightContent = () => {
                         <input name="pwd" type="password" placeholder="四位数字" required/>
                     </li>
                     <li>
-                        <input class="login" name="login" type="submit" value=" "/>
+                        <input className="login" name="login" type="submit" value=" "/>
                     </li>
                     <li>
                         <a href="#">立即注册</a>

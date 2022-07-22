@@ -1,13 +1,12 @@
 import React from 'react';
-import './FloatingAdd.css';
-import ad3 from "../../images/ad3.jpg";
+import styles from './FloatingAdd.module.css';
+import ad3 from "../../images/add3.jpg";
 
-const FloatingAdd = () => {
+const FloatingAdd = ({setShowAdd}) => {
     return (
-        <div class="adRight">
-            <a class="icon" href="#">X</a>
+        <div className={styles.adRight}>
+            <button onClick={()=>setShowAdd(false)} className={styles.icon}>X</button>
             <a href="#"><img src={ad3} alt="add"/></a>
-            hello
         </div>
     );
 };

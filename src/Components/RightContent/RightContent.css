@@ -10,11 +10,11 @@
   .gameLogin h1 {
     color: #767373;
     font-size: 14px;
-    padding: 20px 0px 25px 20px;
+    padding: 20px 20px 25px 20px;
   }
   
   .gameLogin li{
-    padding-left: 20px;
+    padding: 0 20px;
     height: 35px;
     font-size: 14px;
   }
